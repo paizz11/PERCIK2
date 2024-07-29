@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #ff0000, #ff0000); /* Merah dan putih */
+    color: white;
+    padding: 2rem 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #ff0000; /* Merah */
+}
+
+p, .lead, .card-text, .nav-link {
+    font-weight: 300;
+    color: #666;
+}
+
+.navbar {
+    background-color: #ff0000; /* Merah */
+}
+
+.navbar-brand, .nav-link {
+    color: rgb(238, 11, 11) !important;
+}
+
+.nav-link:hover {
+    color: #dd1010 !important; /* Putih lembut */
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-primary:hover {
+    background-color: #e60000;
+    border-color: #e60000;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #ff0000; /* Merah */
+}
+
+.table thead th {
+    background-color: #ff0000; /* Merah */
+    color: white;
+}
+
+.table-responsive {
+    margin-top: 2rem;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #ffe6e6; /* Putih lembut */
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+footer h5 {
+    font-weight: 600;
+    color: #ff0000; /* Merah */
+}
+
+footer p, footer a {
+    font-weight: 300;
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ff0000; /* Merah */
+}
+
+footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin-top: 1rem;
+}
